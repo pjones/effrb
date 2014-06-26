@@ -1,0 +1,4 @@
+# <<: spec
+source('https://rubygems.org')
+gemspec
+# :>>

@@ -1,0 +1,22 @@
+Total allocated 892553
+Total retained 4680
+
+allocated memory by gem
+-----------------------------------
+2.1.1/lib x 75201418
+rubygems x 1181583
+other x 120
+
+allocated memory by location
+-----------------------------------
+lib/ruby/2.1.0/net/protocol.rb:153 x 35241433
+lib/ruby/2.1.0/csv.rb:1806 x 16217960
+lib/ruby/2.1.0/csv.rb:1833 x 16217960
+lib/ruby/2.1.0/csv.rb:1783 x 2918998
+
+retained memory by location
+-----------------------------------
+lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55 x 116966
+lib/ruby/2.1.0/uri/common.rb:853 x 20440
+lib/ruby/2.1.0/x86_64-linux/socket.so:0 x 17676
+lib/ruby/2.1.0/uri/common.rb:863 x 11680

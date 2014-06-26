@@ -1,0 +1,5 @@
+source("https://rubygems.org")
+
+# <<: explicit
+gem('money', '5.1.1')
+# :>>

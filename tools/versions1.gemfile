@@ -1,0 +1,5 @@
+source("https://rubygems.org")
+
+# <<: lower-only
+gem('money', '>= 1.0')
+# :>>

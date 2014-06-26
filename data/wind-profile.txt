@@ -1,0 +1,9 @@
+  %   cumulative   self              self     total
+ time   seconds   seconds    calls  ms/call  ms/call  name
+ 62.60    15.70      3.92   433413     0.04     0.16  CSV#shift
+ 10.13    18.24      2.54    14054     0.18     1.58  Array#each
+  4.39    19.34      1.10   405451     0.00     0.00  String#=~
+  3.79    20.29      0.95   405472     0.00     0.00  String#[]
+  3.51    21.17      0.88   420453     0.00     0.00  Hash#[]
+  3.27    21.99      0.82   405924     0.00     0.00  Array#<<
+  3.15    22.78      0.79   419475     0.00     0.00  String#==

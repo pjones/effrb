@@ -1,0 +1,16 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    fuzzbert (1.0.2)
+    id3tag (0.7.0)
+    mrproper (0.0.4)
+    ruby-prof (0.15.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  fuzzbert (= 1.0.2)
+  id3tag (= 0.7.0)
+  mrproper (= 0.0.4)
+  ruby-prof (= 0.15.1)

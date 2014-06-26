@@ -1,0 +1,5 @@
+source('https://rubygems.org')
+gem('fuzzbert',  '1.0.2')
+gem('mrproper',  '0.0.4')
+gem('ruby-prof', '0.15.1')
+gem('id3tag',    '0.7.0')

@@ -1,0 +1,15 @@
+# <<: source
+source("https://rubygems.org")
+# :>>
+
+# <<: gems
+gem('id3tag', '0.7.0')
+gem('json',   '1.8.1')
+# :>>
+
+# <<: group
+group(:production) do
+  gem('id3tag', '0.7.0')
+  gem('json',   '1.8.1')
+end
+# :>>

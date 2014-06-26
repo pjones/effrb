@@ -1,0 +1,5 @@
+source("https://rubygems.org")
+
+# <<: range
+gem('money', '>= 5.1.0', '< 5.2.0')
+# :>>
