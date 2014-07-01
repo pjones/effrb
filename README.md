@@ -2,14 +2,16 @@
 
 Source code for the book [Effective Ruby][] by [Peter J. Jones] [].
 
+![Effective Ruby](http://www.effectiveruby.com/images/cover.jpg)
+
 ## Introduction
 
 Virtually all of the code from the book is implemented as unit tests
-using `MiniTest`.  I used a makefile and some scripts to convert the
-book from Markdown to the format used by my publisher, Addison-Wesley.
-During this process all of the tests are run and snippets of code are
-automatically extracted from the tests and inserted into the final
-document.
+using `MiniTest`.  I used a makefile and
+[some scripts][devalot-pandoc] to convert the book from Markdown to
+the format used by my publisher, Addison-Wesley.  During this process
+all of the tests are run and snippets of code are automatically
+extracted from the tests and inserted into the final document.
 
 ## Running the Tests
 
@@ -141,3 +143,4 @@ The author tweets Ruby tips at [@EffectiveRuby][] and personal junk at
 [rbenv]: https://github.com/sstephenson/rbenv
 [@effectiveruby]: https://twitter.com/EffectiveRuby
 [@contextualdev]: https://twitter.com/contextualdev
+[devalot-pandoc]: https://github.com/pjones/devalot-pandoc
