@@ -142,7 +142,7 @@ class ResourcesTest < MiniTest::Unit::TestCase
   module OptionalYield
 
     ##############################################################################
-    # <<: class
+    # <<: class-optional
     class Lock
       def self.acquire
         lock = new # Initialize the resource.
@@ -151,7 +151,7 @@ class ResourcesTest < MiniTest::Unit::TestCase
         if block_given?
           yield(lock)
         else
-          lock # Act more like Lock.new.
+          lock # Act more like Lock::new.
         end
       ensure
         if block_given?
