@@ -44,7 +44,7 @@ class LiteralsTest < MiniTest::Unit::TestCase
   module OutLoop
     class Errors
       # <<: outloop-const
-      FATAL_CODES = %w(F1 F2 F3).freeze
+      FATAL_CODES = %w(F1 F2 F3).map(&:freeze).freeze
 
       def fatal? (errors)
         errors.any? {|e| FATAL_CODES.include?(e.code)}
