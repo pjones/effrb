@@ -162,7 +162,7 @@ class HooksTest < MiniTest::Unit::TestCase
     # Triggers singleton_method_removed(:hello)
     class << self; remove_method(:hello); end
 
-    # Triggers singleton_method_removed(:hello), again.
+    # Triggers singleton_method_added(:hello), again.
     def self.hello; end
 
     # Triggers singleton_method_undefined(:hello)
