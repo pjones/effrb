@@ -113,7 +113,7 @@ class HooksTest < MiniTest::Unit::TestCase
   # <<: parent-inherited
   class Parent
     def self.inherited (child)
-      # ..
+      # ...
     end
   end
   # :>>
