@@ -10,7 +10,7 @@
 # <<: class
 # Represents a version number with three components:
 #
-# * Major number  (1 in +1.2.3+)
+# * Major number: (1 in +1.2.3+)
 # * Minor number: (2 in +1.2.3+)
 # * Patch level:  (3 in +1.2.3+)
 #
