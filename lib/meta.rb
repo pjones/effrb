@@ -114,7 +114,8 @@ module DelegationUsingDefineMethod
       mod = Module.new do
         object.public_methods.each do |name|
           define_method(name) do |*args, &block|
-            @logger.info("calling `#{name}' on #{@object.inspect}")
+            @logger.info("calling `#{name}' on " +
+                         @object.inspect)
             @object.send(name, *args, &block)
           end
         end
